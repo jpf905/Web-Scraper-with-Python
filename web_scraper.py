@@ -18,5 +18,5 @@ class Scraper:
 			if "articles" in url:
 				print("\n" + url)
 				
-news = "https://news.google.com"
+news = "https://news.google.com/"
 Scraper(news).scrape()
